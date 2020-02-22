@@ -39,7 +39,7 @@ def load_data():
     review_list_count = count_vect.fit_transform(review_list)
     review_list_count = review_list_count.toarray()
 
-    X_train, X_test, Y_train, Y_test = train_test_split(review_list_count, sentiment_list, test_size=0.2, random_state=99)
+    X_train, X_test, Y_train, Y_test = train_test_split(review_list_count, sentiment_list, test_size=0.1, random_state=99)
 
     return X_train, Y_train, X_test, Y_test
 
