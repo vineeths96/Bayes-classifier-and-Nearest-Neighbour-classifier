@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def bayes_mixture(theta_0, theta_1, weights_0, weights_1, X_test):
     mu_00, sigma_00 = theta_0[0]
     mu_01, sigma_01 = theta_0[1]

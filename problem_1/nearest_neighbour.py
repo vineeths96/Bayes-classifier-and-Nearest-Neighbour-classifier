@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def nearest_class(X_0, X_1, X):
     min_distance = np.inf
     min_class = 0

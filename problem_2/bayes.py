@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def bayes(theta_0, theta_1, X_test):
     p0 = 0.5
     mu_0 = theta_0[0]

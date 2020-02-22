@@ -1,5 +1,6 @@
 from sklearn.mixture import BayesianGaussianMixture
 
+
 def EM_gaussian(X_train):
     bgsm = BayesianGaussianMixture(n_components=2)
 

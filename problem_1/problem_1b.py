@@ -4,6 +4,7 @@ from sklearn.mixture import BayesianGaussianMixture
 from problem_1.bayes import bayes
 from problem_1.accuracy import accuracy
 
+
 def problem_1b(X_train, Y_train, X_test, Y_test):
     bgsm = BayesianGaussianMixture(n_components=2)
 

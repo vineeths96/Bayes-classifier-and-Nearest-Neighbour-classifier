@@ -2,6 +2,7 @@ import numpy as np
 
 DIMENSIONS = 20
 
+
 def MLE_gaussian(X, N):
     mu_estimate = np.sum(X, axis=0)/N
 

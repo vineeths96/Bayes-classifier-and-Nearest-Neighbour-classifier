@@ -3,6 +3,7 @@ import numpy as np
 MAX_LINES = 200
 DIMENSIONS = 2
 
+
 def load_from_file(X, Y, filename):
     file = open(filename)
     idx = 0

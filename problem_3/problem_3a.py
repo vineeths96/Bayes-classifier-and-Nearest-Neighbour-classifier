@@ -5,6 +5,7 @@ from problem_3.bayes_mixture import bayes_mixture
 from problem_3.nearest_neighbour import nearest_neighbour
 from problem_3.accuracy import accuracy
 
+
 def problem_3a(X_train, Y_train, X_test, Y_test):
     output_file = open('./results/problem_3a.txt', "w")
 

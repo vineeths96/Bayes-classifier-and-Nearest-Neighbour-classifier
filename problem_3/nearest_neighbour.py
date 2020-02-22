@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def nearest_class(X_0, X_1, X):
     min_distance = np.inf
     min_class = 0
@@ -27,6 +28,7 @@ def nearest_neighbour(X_0, X_1, X_test):
         Y_pred[idx] = nearest_class(X_0, X_1, X)
 
     return Y_pred
+
 
 if __name__ == "__main__":
     nearest_neighbour()
