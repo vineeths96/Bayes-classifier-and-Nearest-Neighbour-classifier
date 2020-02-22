@@ -8,6 +8,10 @@ def load_from_file(X, Y, filename):
     idx = 0
     for line in file:
         line_list = line.rstrip().split(',')
+        line_list = list(filter(None, line_list))
+
+        if len(line_list) == 0:
+            continue
 
         for col_ind in range(DIMENSIONS):
             X[idx, col_ind] = float(line_list[col_ind])

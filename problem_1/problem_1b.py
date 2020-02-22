@@ -26,12 +26,13 @@ def problem_1b(X_train, Y_train, X_test, Y_test):
             class_1 = 0
 
         means = bgsm.means_
+        weights = bgsm.weights_
         covariances = bgsm.covariances_
 
         theta_0 = [means[0], covariances[0]]
         theta_1 = [means[1], covariances[1]]
 
-        Y_pred = bayes(theta_0,theta_1, X_test)
+        Y_pred = bayes(theta_0,theta_1, X_test, weights[0], weights[1])
         Y_pred[Y_pred == class_1] = -1
         Y_pred[Y_pred == class_0] = 1
 

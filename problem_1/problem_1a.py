@@ -29,6 +29,8 @@ def problem_1a(X_train, Y_train, X_test, Y_test):
         Y_pred_bayes[Y_pred_bayes == 1] = 1
 
         Y_pred_nearest_neighbour = nearest_neighbour(X_0, X_1, X_test)
+        Y_pred_nearest_neighbour[Y_pred_nearest_neighbour == 0] = -1
+        Y_pred_nearest_neighbour[Y_pred_nearest_neighbour == 1] = 1
 
         bayes_accuracy = accuracy(Y_pred_bayes, Y_test)
         nearest_neighbour_accuracy = accuracy(Y_pred_nearest_neighbour, Y_test)
