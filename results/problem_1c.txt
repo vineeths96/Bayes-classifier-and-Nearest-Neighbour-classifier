@@ -1,0 +1,13 @@
+Class 1: Gaussian, Class 2: Gaussian
+5, 0.98
+10, 0.98
+25, 0.99
+75, 0.99
+100, 0.99
+
+Class 1: Gaussian, Class 2: Exponential
+5, 0.83
+10, 0.98
+25, 0.98
+75, 0.98
+100, 0.98
