@@ -27,11 +27,11 @@ def problem_3b(X_train, Y_train, X_test, Y_test):
 
     X_class_0 = X_train[Y_train == -1]
     X_class_1 = X_train[Y_train == 1]
-    mu_estiamte_0, sigma_estimate_0 = MLE_gaussian(X_class_0, len(X_class_0))
-    mu_estiamte_1, sigma_estimate_1 = MLE_gaussian(X_class_1, len(X_class_1))
+    mu_estimate_0, sigma_estimate_0 = MLE_gaussian(X_class_0, len(X_class_0))
+    mu_estimate_1, sigma_estimate_1 = MLE_gaussian(X_class_1, len(X_class_1))
 
-    theta_0 = [mu_estiamte_0, sigma_estimate_0]
-    theta_1 = [mu_estiamte_1, sigma_estimate_1]
+    theta_0 = [mu_estimate_0, sigma_estimate_0]
+    theta_1 = [mu_estimate_1, sigma_estimate_1]
 
     Y_pred_MLE = bayes(theta_0, theta_1, X_test)
     Y_pred_MLE[Y_pred_MLE == 0] = -1

@@ -19,7 +19,7 @@ def problem_1b(X_train, Y_train, X_test, Y_test):
         X_train_rand = X_train[rand_list]
         labels = bgsm.fit_predict(X_train_rand)
 
-        if (labels[0] == 0):
+        if labels[0] == 0:
             class_0 = 0
             class_1 = 1
         else:

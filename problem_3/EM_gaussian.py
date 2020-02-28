@@ -6,7 +6,7 @@ def EM_gaussian(X_train):
 
     labels = bgsm.fit_predict(X_train)
 
-    if (labels[0] == 0):
+    if labels[0] == 0:
         class_0 = 0
         class_1 = 1
     else:

@@ -1,6 +1,7 @@
 import numpy as np
 
-def bayes(theta_0, theta_1, X_test, p0 = 0.5, p1 = 0.5):
+
+def bayes(theta_0, theta_1, X_test, p0=0.5, p1=0.5):
     mu_0 = theta_0[0]
     sigma_0 = theta_0[1]
     det_sigma_0 = np.linalg.det(sigma_0)

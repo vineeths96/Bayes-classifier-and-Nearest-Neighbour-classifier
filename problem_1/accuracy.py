@@ -3,9 +3,9 @@ import numpy as np
 
 def accuracy(Y_pred, Y_test):
     accuracy_vector = (Y_pred == Y_test)
-    accuracy = np.sum(accuracy_vector)/len(accuracy_vector)
+    accuracy_value = np.sum(accuracy_vector)/len(accuracy_vector)
 
-    return accuracy
+    return accuracy_value
 
 
 if __name__ == "__main":

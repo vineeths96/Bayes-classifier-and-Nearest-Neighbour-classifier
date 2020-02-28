@@ -15,15 +15,15 @@ def problem_1c(X_train, Y_train, X_test, Y_test):
         rand_list = random.sample(range(0, 100), N)
         X_class_0 = X_train[Y_train == -1]
         X_0 = X_class_0[rand_list]
-        mu_estiamte_0, sigma_estimate_0 = MLE_gaussian(X_0, N)
+        mu_estimate_0, sigma_estimate_0 = MLE_gaussian(X_0, N)
 
         rand_list = random.sample(range(0, 100), N)
         X_class_1 = X_train[Y_train == 1]
         X_1 = X_class_1[rand_list]
-        mu_estiamte_1, sigma_estimate_1 = MLE_gaussian(X_1, N)
+        mu_estimate_1, sigma_estimate_1 = MLE_gaussian(X_1, N)
 
-        theta_0 = [mu_estiamte_0, sigma_estimate_0]
-        theta_1 = [mu_estiamte_1, sigma_estimate_1]
+        theta_0 = [mu_estimate_0, sigma_estimate_0]
+        theta_1 = [mu_estimate_1, sigma_estimate_1]
 
         Y_pred_bayes = bayes(theta_0, theta_1, X_test)
         Y_pred_bayes[Y_pred_bayes == 0] = -1
@@ -39,15 +39,15 @@ def problem_1c(X_train, Y_train, X_test, Y_test):
         rand_list = random.sample(range(0, 100), N)
         X_class_0 = X_train[Y_train == -1]
         X_0 = X_class_0[rand_list]
-        mu_estiamte_0, sigma_estimate_0 = MLE_gaussian(X_0, N)
+        mu_estimate_0, sigma_estimate_0 = MLE_gaussian(X_0, N)
 
         rand_list = random.sample(range(0, 100), N)
         X_class_1 = X_train[Y_train == 1]
         X_1 = X_class_1[rand_list]
-        lambda_estiamte_1 = MLE_exponential(X_1, N)
+        lambda_estimate_1 = MLE_exponential(X_1, N)
 
-        theta_0 = [mu_estiamte_0, sigma_estimate_0]
-        theta_1 = lambda_estiamte_1
+        theta_0 = [mu_estimate_0, sigma_estimate_0]
+        theta_1 = lambda_estimate_1
 
         Y_pred_bayes = bayes_gaussian_exponential(theta_0, theta_1, X_test)
         Y_pred_bayes[Y_pred_bayes == 0] = -1
