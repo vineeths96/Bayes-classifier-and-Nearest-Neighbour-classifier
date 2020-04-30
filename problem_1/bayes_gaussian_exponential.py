@@ -1,5 +1,7 @@
 import numpy as np
 
+DIMENSIONS = 2
+
 
 # Function to implement bayes classifier for Gaussian, Exponential class density
 # Prior probability is assumed to be equal unless specified
@@ -21,7 +23,7 @@ def bayes_gaussian_exponential(theta_0, theta_1, X_test, p0=0.5, p1=0.5):
     # Estimate the posterior density and label the output properly
     for idx in range(len(X_test)):
         X = X_test[idx]
-        q0 = 1 / (2 * np.pi * (det_sigma_0 ** 0.5)) * np.exp(
+        q0 = 1 / (((2 * np.pi) ** DIMENSIONS / 2) * (det_sigma_0 ** 0.5)) * np.exp(
             -0.5 * (X - mu_0) @ inv_sigma_0 @ np.transpose(X - mu_0)) * p0
         X = np.abs(X)
         q1 = lambda_1 * np.exp(-lambda_1 * X[0]) * lambda_2 * np.exp(-lambda_2 * X[1]) * p1
