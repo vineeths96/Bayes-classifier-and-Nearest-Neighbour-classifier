@@ -110,16 +110,16 @@ Project Link: [https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighb
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/vineeths96/Pattern-Recognition-1.svg?style=flat-square
-[contributors-url]: https://github.com/vineeths96/Pattern-Recognition-1/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vineeths96/Pattern-Recognition-1.svg?style=flat-square
-[forks-url]: https://github.com/vineeths96/Pattern-Recognition-1/network/members
-[stars-shield]: https://img.shields.io/github/stars/vineeths96/Pattern-Recognition-1.svg?style=flat-square
-[stars-url]: https://github.com/vineeths96/Pattern-Recognition-1/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vineeths96/Pattern-Recognition-1.svg?style=flat-square
-[issues-url]: https://github.com/vineeths96/Pattern-Recognition-1/issues
+[contributors-shield]: https://img.shields.io/github/contributors/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier.svg?style=flat-square
+[contributors-url]: https://github.com/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier.svg?style=flat-square
+[forks-url]: https://github.com/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier.svg?style=flat-square
+[stars-url]: https://github.com/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier.svg?style=flat-square
+[issues-url]: https://github.com/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier/issues
 [license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
-[license-url]: https://github.com/vineeths96/Pattern-Recognition-1/blob/master/LICENSE
+[license-url]: https://github.com/vineeths96/ Bayes-classifier-and-Nearest-Neighbour-classifier/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/vineeths
 
