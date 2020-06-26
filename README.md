@@ -4,18 +4,18 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/vineeths96/Pattern-Recognition-1">
+  <a href="https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighbour-classifier">
     <img src="results/logo.jpg" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Pattern Recognition and Neural Networks</h3>
   <p align="center">
     Classifiers and Sentiment analysis
     <br />
-    <a href=https://github.com/vineeths96/Pattern-Recognition-1><strong>Explore the repository»</strong></a>
+    <a href=https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighbour-classifier><strong>Explore the repository»</strong></a>
     <br />
     <br />
-    <a href=https://github.com/vineeths96/Pattern-Recognition-1/blob/master/Problem_Statement.pdf>View Problem Statement</a>
-    <a href=https://github.com/vineeths96/Pattern-Recognition-1/blob/master/results/report.pdf>View Report</a>
+    <a href=https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighbour-classifier/blob/master/Problem_Statement.pdf>View Problem Statement</a>
+    <a href=https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighbour-classifier/blob/master/results/report.pdf>View Report</a>
   </p>
 
 
@@ -59,7 +59,7 @@ This project was built with
 Clone the repository into a local machine using
 
 ```shell
-git clone https://github.com/vineeths96/Pattern-Recognition-1
+git clone https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighbour-classifier
 ```
 
 ### Prerequisites
@@ -103,7 +103,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Vineeth S  - vs96codes@gmail.com
 
-Project Link: [https://github.com/vineeths96/Pattern-Recognition-1](https://github.com/vineeths96/Pattern-Recognition-1)
+Project Link: [https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighbour-classifier](https://github.com/vineeths96/Bayes-classifier-and-Nearest-Neighbour-classifier)
 
 
 
